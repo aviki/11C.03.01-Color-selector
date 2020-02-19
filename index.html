@@ -8,7 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <h1 id="title">Color Selector</h1>
+    <h1 class="headline" id="title">Color Selector</h1>
+
+    <h3 class="headline" id="select-style">Change color harmony</h3>
+    <select id="outputStyleSelector">
+      <option value="analogous">analogous</option>
+      <option value="complementary">complementary</option>
+      <option value="compound">compound</option>
+      <option value="monochromatic">monochromatic</option>
+      <option value="shades">shades</option>
+      <option value="triad">triad</option> </select
+    ><br />
 
     <div class="color-field">
       <label for="main-color">Select color: </label>
@@ -18,14 +28,16 @@
       <div id="HEX">
         <label for="HEX">HEX:</label>
         <p id="hex-input"></p>
-        <!--input type="number" id="hex-input" name="HEX" /0-->
+        <!--input type="text" id="hex-input" name="HEX" /-->
       </div>
       <div id="RGB">
         <label for="RGB">RGB:</label>
+        <p id="rgb-input"></p>
         <!--input type="number" id="rgb-input" name="RGB" /-->
       </div>
       <div id="HSL">
         <label for="HSL">HSL:</label>
+        <p id="hsl-input"></p>
         <!--input type="number" id="hsl-input" name="HSL" /-->
       </div>
     </div>
