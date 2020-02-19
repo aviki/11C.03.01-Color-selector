@@ -1,8 +1,31 @@
-html {
+* {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: "Permanent Marker", cursive;
-  margin: 0 auto;
+  margin-left: 1.5em;
+  font-size: 25px;
 }
 
 #title {
   font-size: 3em;
+}
+
+.color-field {
+  margin-top: 1em;
+}
+
+#main-color {
+  height: 50px;
+  width: 100px;
+}
+
+.color-codes {
+  margin-top: 1em;
 }
