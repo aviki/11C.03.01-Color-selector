@@ -20,7 +20,7 @@ theInput.addEventListener("input", function displayRgb() {
 });
 theInput.addEventListener("input", function displayHsl() {
   hslValueOfInput = rgbToHsl(rgbValueOfInput[0], rgbValueOfInput[1], rgbValueOfInput[2]);
-  document.getElementById("hsl-input").innerHTML = "H:" + hslValueOfInput[0] + ", S:" + hslValueOfInput[1] + ", V:" + hslValueOfInput[2];
+  document.getElementById("hsl-input").innerHTML = "H: " + hslValueOfInput[0] + ", S: " + hslValueOfInput[1] + ", V: " + hslValueOfInput[2];
 });
 //Converting HEX to RGB --> Parameter is a string, output is an array of three integers
 function hexToRgb(hex) {
