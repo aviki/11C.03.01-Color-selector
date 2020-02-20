@@ -11,6 +11,11 @@ body {
   font-family: "Permanent Marker", cursive;
   margin-left: 1.5em;
   font-size: 25px;
+  background-image: url("rainbow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .container {
