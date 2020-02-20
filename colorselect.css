@@ -13,6 +13,11 @@ body {
   font-size: 25px;
 }
 
+.container {
+  display: flex; /* vagy inline-flex */
+  flex-direction: row;
+}
+
 #title {
   font-size: 3em;
 }
@@ -26,6 +31,6 @@ body {
   width: 100px;
 }
 
-.color-codes {
-  margin-top: 1em;
+.input-field {
+  margin-left: 1em;
 }

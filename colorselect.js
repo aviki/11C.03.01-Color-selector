@@ -65,5 +65,3 @@ function rgbToHsl(r, g, b) {
   h = h / 360;
   return [h, s, l];
 }
-
-document.getElementById("hsl-input").innerHTML = theInput.value;
